@@ -1,0 +1,34 @@
+* `flex` 属性是 `flex-grow` 和 `flex-shrink` 和 `flex-basis` 属性的简写
+
+* 子元素的 `align-self` 相较于父元素的 `align-items` 可以有自己的辅轴布局方式
+* justify-content
+  * flex-start
+  * flex-end
+  * center
+  * space-between
+  * space-around
+
+* `align-items` 和 `align-content` 的区别
+
+  * align-items
+
+    所有元素各自的对齐方式
+
+    * flex-start
+    * flex-end
+    * center
+    * base-line
+    * stretch (default) 如子元素未设置高度或设为auto，将占满整个父元素的高度
+
+  * align-content
+
+    类似 `justify-content`
+
+    把整体项目作为一个整体，所有元素的对齐方式基于一根轴对齐方式（堆叠方式）
+
+    * flex-start
+    * flex-end
+    * center
+    * space-between
+    * space-around
+    * stretch
